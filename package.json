@@ -1,0 +1,29 @@
+{
+  "name": "verbixapistyles",
+  "version": "1.0.0",
+  "description": "Styles for Verbix API",
+  "scripts": {
+    "build": "npm-run-all --sequential compile prefix minify",
+    "compile": "node-sass --output-style expanded --precision 6 scss/api.scss build/api.css",
+    "prefix": "postcss --config node_modules/bootstrap/build/postcss.config.js --replace \"build/api.css\"",
+    "minify": "cleancss --level 1 --output build/api.min.css build/api.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerbixCom/VerbixApiStyles.git"
+  },
+  "author": "Verbix",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/VerbixCom/VerbixApiStyles/issues"
+  },
+  "homepage": "https://github.com/VerbixCom/VerbixApiStyles#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.6",
+    "bootstrap": "4.0.0-beta.2",
+    "clean-css-cli": "^4.1.10",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1"
+  }
+}
