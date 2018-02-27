@@ -1,4 +1,4 @@
-/*Info: https://git.io/vFGF9*/
+/*! Info: https://git.io/vFGF9 */
 
 $blue: #0e2f73;
 
@@ -15,7 +15,6 @@ $badge-font-weight: 600;
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
 //Extra
-@import "node_modules/bootstrap/scss/print";
 @import "node_modules/bootstrap/scss/reboot";
 @import "node_modules/bootstrap/scss/type";
 @import "node_modules/bootstrap/scss/images";
@@ -29,3 +28,4 @@ $badge-font-weight: 600;
 @import "node_modules/bootstrap/scss/badge";
 @import "node_modules/bootstrap/scss/alert";
 @import "node_modules/bootstrap/scss/utilities";
+@import "node_modules/bootstrap/scss/print";
