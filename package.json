@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/VerbixCom/VerbixApiStyles#readme",
   "dependencies": {
-    "autoprefixer": "^8.0.0",
+    "autoprefixer": "^9.0.0",
     "bootstrap": "4.0.0",
     "clean-css-cli": "^4.1.10",
     "node-sass": "^4.5.3",
