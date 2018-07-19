@@ -1,6 +1,6 @@
 {
   "name": "verbixapistyles",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Styles for Verbix API",
   "scripts": {
     "test": "npm run css -- --production",
