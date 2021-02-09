@@ -21,6 +21,6 @@
     "highlight.js": "10.6.0"
   },
   "devDependencies": {
-    "scss-powertools": "^2.0.0"
+    "scss-powertools": "^2.1.0"
   }
 }
