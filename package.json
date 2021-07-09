@@ -18,7 +18,7 @@
   "homepage": "https://github.com/VerbixCom/VerbixApiStyles#readme",
   "dependencies": {
     "bootstrap": "4.6.0",
-    "highlight.js": "11.0.1"
+    "highlight.js": "11.1.0"
   },
   "devDependencies": {
     "scss-powertools": "^3.1.1"
